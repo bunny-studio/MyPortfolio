@@ -637,6 +637,7 @@ main .landing-section {
 
 .note,
 .about-img,
+.project-heading,
 .details-about .readmore,
 .details-about p {
     animation: var(--TextSlideAni-1s-ease);

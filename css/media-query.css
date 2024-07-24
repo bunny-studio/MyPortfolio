@@ -1,17 +1,5 @@
 @import url("./style.css");
 
-@media only screen and (min-height:580px) and (max-height: 700px) {
-
-  .row,
-  .note,
-  .about-img,
-  .details-about .readmore,
-  .details-about p {
-    animation-timeline: view(100% -100%);
-  }
-
-}
-
 @media only screen and (max-width: 1024px) {
 
   body,
@@ -109,7 +97,6 @@
   .details-about p {
     animation-timeline: view(100% -100%);
   }
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -140,7 +127,6 @@
   .cards-container {
     flex-wrap: wrap;
     margin: 0 20px;
-
   }
 
   .project-cards .cards-container,
@@ -162,17 +148,6 @@
   .img-collection,
   .bg-shape {
     display: none;
-  }
-
-  .note,
-  .about-img,
-  .details-about .readmore,
-  .details-about p {
-    animation-timeline: view(100% -100%);
-  }
-
-  .row {
-    animation-timeline: view(100% -100%);
   }
 
   .skills {
