@@ -570,6 +570,12 @@ main .landing-section {
     margin: 10px;
     width: 100%;
     height: max-content;
+    transition: .3s transform ease;
+}
+
+.cards:hover {
+    cursor: default;
+    transform: scale(1.05);
 }
 
 .cards .cards-img img,
